@@ -1,0 +1,5 @@
+Revision history for Plack-App-TemplatedDirectory
+
+{{$NEXT}}
+ - First version, with functionality taken from Plack::App::Directory
+   Uses Text::Xslate for templates
