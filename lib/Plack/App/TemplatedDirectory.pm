@@ -79,7 +79,7 @@ sub serve_path {
         push @files, {
 			url => $url,
 			name => $basename,
-			ext => lc $ext // '',
+			ext => lc($ext // ''),
 			size => $stat[7],
 			mime_type => $mime_type,
 			modified_time => HTTP::Date::time2str($stat[9])
